@@ -44,7 +44,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
-            <plugin>
+<!--             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.14</version>
@@ -63,13 +63,13 @@
                         </resource>
                     </resources>
                 </configuration>
-            </plugin>
+            </plugin> -->
             
         </plugins>
     </build>
 
     <!-- 设定远程主仓库，按设定顺序进行查找。 -->
-    <repositories>
+<!--     <repositories>
 
         <repository>
             <id>aliyun-repos</id>
@@ -77,6 +77,6 @@
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
 
-    </repositories>
+    </repositories> -->
 
 </project>
