@@ -68,4 +68,15 @@
         </plugins>
     </build>
 
+    <!-- 设定远程主仓库，按设定顺序进行查找。 -->
+    <repositories>
+
+        <repository>
+            <id>aliyun-repos</id>
+            <name>aliyun Releases</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+
+    </repositories>
+
 </project>
